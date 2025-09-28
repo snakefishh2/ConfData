@@ -1,4 +1,4 @@
 *
 !ConfData.zip
 !.gitignore
-!deploy.bat
+!push_bolid_conf_data.py
