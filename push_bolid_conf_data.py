@@ -37,7 +37,7 @@ if status.stdout.strip():
     current_date = datetime.now().strftime("%Y-%m-%d")
     subprocess.run(["git", "commit", "-m", current_date], check=True)
     subprocess.run(["git", "push", "origin", branch_name], check=True)
-    print(f"Архив '{zip_file}' закоммичен и загружен в ветку '{branch_name}'.")
+    print(f"ВЫПОЛНЕНО!!!")
 else:
     print("Нет изменений для коммита. Пуш не выполнен.")
 
